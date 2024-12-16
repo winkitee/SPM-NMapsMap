@@ -11,7 +11,7 @@ let package = Package(
             targets: ["NMapsMapTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/navermaps/SPM-NMapsGeometry.git", from: "1.0.2")
+        .package(url: "https://github.com/winkitee/SPM-NMapsGeometry.git", branch: "winkitee-1.0.2")
     ],
     targets: [
         .target(
@@ -24,7 +24,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "NMapsMapBinary",
-            url: "https://repository.map.naver.com/archive/pod/NMapsMap/3.20.0/NMapsMap.zip",
+            url: "https://github.com/winkitee/SPM-NMapsMap/releases/download/3.20.0/NMapsMap.zip",
             checksum: "4134e7b714d83966fb879e61b50e7da46ca69a53d4241e700dfa960a99da64d3"
         ),
     ]

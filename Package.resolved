@@ -1,13 +1,13 @@
 {
-  "originHash" : "e3fb813ea8a34c68d994222819f1da89eee5b2c8b9fb1855153b53b9948f0a34",
+  "originHash" : "6ec3ea80547025744b0a5fe920954e59d590621a7b69eed9e92475d287fe2a67",
   "pins" : [
     {
       "identity" : "spm-nmapsgeometry",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/navermaps/SPM-NMapsGeometry.git",
+      "location" : "https://github.com/winkitee/SPM-NMapsGeometry.git",
       "state" : {
-        "revision" : "34698ea7de7d5c2009069bef5080f0fc3cb3bca3",
-        "version" : "1.0.2"
+        "branch" : "winkitee-1.0.2",
+        "revision" : "a7d0b84c89848e105ba2ba2ac6227773e7ee4451"
       }
     }
   ],
